@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DGU</title>
+</head>
+<style>
+  .container {
+    width: 700px;
+    margin: 50px auto;
+  }
+  .form {
+    display: flex;
+    flex-direction: column;
+  
+  }
+  #vol {
+    width: 400px;
+  }
+</style>
+<body>
+  <div class="container">
+    <h1>Ko‘prik inshootlarida shpunt to‘siklarining avtomatlashtirilgan hisobi</h1>
+   <h4> L(sh) = <span id="lsh"></span></h4>
+    <form class="form">
+      
+  
+      <label >
+        Fl =  <input type="number" id="fl">
+      </label>
+  
+      <label >
+        Nl = <input type="number" id="nl">
+      </label>
+  
+      <label >
+        h(c) = <input type="number" id="hc">
+      </label>
+  
+      <label for="vol">fi, step : <span id="textt">30</span>
+  
+        <input type="range" id="vol" name="vol" min="15" max="40">
+      </label>
+      
+      <button type="submit">Calculate</button>
+    </form>
+  </div>     
+  
+  <script src="./app.js"></script>
+</body>
+</html>
