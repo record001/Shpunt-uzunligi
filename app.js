@@ -1,4 +1,4 @@
-const h_pod = 10
+const h_pod = 0.1
 document.querySelector("#vol").addEventListener("change", e => {
   document.querySelector("#textt").textContent =e.target.value 
 })
